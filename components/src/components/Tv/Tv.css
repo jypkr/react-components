@@ -1,0 +1,15 @@
+.tv {
+    width: 635px;
+    height: 450px;
+    background-image: url('./img/menu-example.png');
+    background-size: 780px 450px;
+    background-position: center;
+    text-align: center;
+    border: 8px solid #030b23;
+    border-radius: 3%;
+}
+
+.tv Button {
+    position:relative;
+    top: 80%;
+}

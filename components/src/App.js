@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { Navbar } from './components/Navbar';
+import { Tv } from './components/Tv';
+import { Header } from './components/Header';
+import { Headline } from './components/Headline';
 
+import './App.css';
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="contents">
+        <span>
+          <Navbar />
+        </span>
+        <span>
+          <Tv />
+        </span>
+        <span>
+          <Header title='Step 1' description='Choose Screen Orientation'/>
+        </span>
+        <span>
+          <Headline />
+        </span>
+      </div>
+    </>
   );
 }
 

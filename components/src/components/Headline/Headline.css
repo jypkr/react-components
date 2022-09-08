@@ -1,0 +1,21 @@
+.Headline {
+    height: max-content;
+    width: 80vw;
+    display: flex;
+    background-color: #303546;
+}
+
+.Headline .left-box {
+}
+
+.Headline .right-box {
+    margin-left: 0%;
+    margin-top: 15%;
+    color: aliceblue;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.Headline p {
+    padding: 10px;
+}
